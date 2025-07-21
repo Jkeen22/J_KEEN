@@ -1,0 +1,180 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td {
+    border: 1px solid lavender;
+    padding: 5px;
+}
+
+th {
+    background-color: tomato;
+    color: white;
+    text-align: left;
+}
+
+/* tr:nth-child(even) {
+    background-color: rgb(184, 184, 184);
+} */
+
+tr:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+#Titulo {
+    color: brown;
+}  
+
+/* p.special {
+    color: blueviolet;
+}
+
+p.text {
+    color: skyblue;
+} */
+
+div p {
+    color: chocolate;
+}
+
+div h2, div h3 {
+    color: cornflowerblue;
+}
+
+/* .color {
+    color: #ff0000;
+} */
+
+/* .color {
+    color: rgb(red, 0, 0);
+} */
+
+.color {
+    /* border: 5px red outset; */
+
+    /*
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+    */
+
+    border-style: solid;
+    border-style: blue;
+    border-radius: 5px;
+    border-width: 2rem;
+}
+
+#fondo {
+    background-color: rgba(255, 0, 0);
+    /* opacity: 0.7; */
+    height: 300px;
+    background: red url('descarga.jpg') repeat-y center bottom / 100px 100px;
+
+
+}
+
+.margen {
+    background-color: blue;
+    margin: 15px;
+    padding: 30px;
+    border: solid 1px black;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid red;
+}
+
+.Textos {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px blue;
+}
+
+* {
+    font-size: 24px;
+    /* color: aqua; */
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: rgb(229, 255, 0);
+}
+
+a:active {
+    color: blue;
+}
+
+ul {
+    background-color: aqua;
+    list-style-type: georgian;
+    /* padding-left: 0; */
+    /* list-style-position: inside; */
+}
+
+span {
+    display: block;
+    /* display: none; */
+    /* visibility: hidden; */
+    max-width: 300px;
+    background-color: red;
+}
+
+.inline {
+    display: inline;
+}
+
+#position {
+    position: sticky;
+    left: 20px;
+    /* top: 25px; */
+}
+
+.Izquierda {
+    float: left;
+    width: 100px;
+}
+
+.Derecha {
+    float: right;
+}
+
+.container {
+    height: 200px;
+}
+
+.carro {
+    margin: 0;
+    padding: 10px 15px;
+    width: 33.3px;
+}
+
+.inline-block {
+    display: inline-block;
+    height: 25px;
+    background-color: red;
+}
+
+.center {
+    text-align: center;
+    padding: 50px 0;
+    /* width: 200px; */
+    margin: 0 auto;
+    background-color: aqua;
+}

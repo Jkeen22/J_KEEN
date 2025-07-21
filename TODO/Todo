@@ -1,8 +1,0 @@
-Create database Keen
-
-CREATE TABLE ID_NOM (
-    ID INT IDENTITY,
-    Nombre nchar(40) not NULL
-)
-
-SELECT * FROM ID_NOM

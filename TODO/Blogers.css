@@ -1,0 +1,53 @@
+html {
+        font-family: 'Roboto', sans-serif;
+}
+
+#Titulo {
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: rgb(99, 107, 107);
+}
+
+head, h1{
+    font-size: 50px;
+}
+
+article {
+    background-color: rgb(233, 233, 233);
+    margin: 1rem 0;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+article, h2 {
+    margin-top: -2px;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(0, 0, 0);
+}
+
+.piePAG {
+    background-color: #222;
+    padding: 1rem;
+    color: #fff;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+a:hover {
+    color: rgb(202, 0, 0);
+}

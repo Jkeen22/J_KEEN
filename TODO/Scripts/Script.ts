@@ -2,9 +2,6 @@
 // string variable declaration and initialization
 var P: string = "Hello, World!";
 console.log(P);
-// string variable declaration and initialization with a different value
-var Q: string = "TypeScript is awesome!";
-console.log(Q);
 // string variable declaration and initialization with a number converted to string
 var R: string = (42).toString();
 console.log(R);
@@ -41,7 +38,7 @@ console.log(A2);
 var A3: string = "Today's date is " + new Date().toLocaleDateString();
 console.log(A3);
 // string variable declaration and initialization with a string containing a function
-var A4: string = "function greet() { return 'Hello!'; }";
+var A4: string = function greet() { return 'Hello!'; }.toString();
 console.log(A4);
 // string variable declaration and initialization with a string containing a regular expression
 var A5: string = "/^[a-zA-Z0-9]+$/";
@@ -104,9 +101,6 @@ console.log(B10);
 // tipo de object
 var B11: object = { name: "John", age: 30 };
 console.log(B11);
-// tipo de bigint
-var B12: bigint = 1234567890123456789012345678901234567890n;
-console.log(B12);
 // tipo de string literal
 var B13: "Hello" = "Hello";
 console.log(B13);

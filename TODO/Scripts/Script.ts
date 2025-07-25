@@ -11,9 +11,6 @@ console.log(R);
 // string variable declaration and initialization with a boolean converted to string
 var S: string = true.toString();
 console.log(S);
-// string variable declaration and initialization with a template literal
-var T: string = `The answer is ${R}`;
-console.log(T);
 // string variable declaration and initialization with a multi-line string
 var U: string = `This is a multi-line string.
 It can span multiple lines.
@@ -205,15 +202,3 @@ namespace MyNamespace {
 }
 var B30: MyNamespace.MyClass = new MyNamespace.MyClass("Hello from namespace");
 console.log(B30.value);
-// tipo de module type
-import { MyModule } from "./MyModule"; // Assuming MyModule exports a class or function
-var B31: MyModule.MyClass = new MyModule.MyClass("Hello from module");
-console.log(B31.value);
-// tipo de global type
-declare global {
-    interface Window {
-        myGlobalVar: string;
-    }
-}
-window.myGlobalVar = "This is a global variable";
-console.log(window.myGlobalVar);

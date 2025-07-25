@@ -65,6 +65,8 @@ console.log(A9);
 var A10: string = "Albert Einstein once said, \"Life is like riding a bicycle. To keep your balance, you must keep moving.\"";
 console.log(A10);
 
+// -------------------------------------------------------------------------------------------------------
+
 // tipo de int
 var B1: number = 42;
 console.log(B1);

@@ -24,9 +24,9 @@
 // \\\\\\\\\\Tipo de Datos///////////////
 
 // ---------String----------------
-// var tipo
-// tipo = "Victor"
-// console.log(typeof tipo)
+var tipo
+tipo = "Victor"
+console.log(typeof tipo)
 
 // -----------numeric-------------
 // var tipo

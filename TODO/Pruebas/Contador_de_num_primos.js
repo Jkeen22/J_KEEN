@@ -1,3 +1,5 @@
+var tipo
 
+tipo = "hola"
 
-console.log()
+console.log(tipo)

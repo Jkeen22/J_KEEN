@@ -25,19 +25,6 @@
             "cwd": "${workspaceRoot}",
             "protocol": "inspector",
             "internalConsoleOptions": "openOnSessionStart"
-        },
-        {
-            "name": "Python Debugger: Current File",
-            "type": "debugpy",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
-        },
-        {
-            "name": "Python Debugger: Python File",
-            "type": "debugpy",
-            "request": "launch",
-            "program": "${file}"
         }
     ]
 }

@@ -107,6 +107,16 @@ console.log(B13);
 // tipo de union   
 var B14: string | number = "This can be a string or a number";
 console.log(B14);
+
+
+
+
+
+
+
+
+
+
 // tipo de intersection
 interface Person {
     name: string;
@@ -123,6 +133,39 @@ var B15: Person & Employee = {
     department: "Engineering"
 };
 console.log(B15);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // tipo de never
 function B16(): never {
     throw new Error("This function never returns");

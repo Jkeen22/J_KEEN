@@ -46,26 +46,26 @@
 // let nombre = "Rojo \nAzul"
 
 // -----------------Tipos----------------------
-// let fruta = "manzana"
-// console.log(fruta.toUpperCase())
+let fruta = "manzana"
+console.log(fruta.toUpperCase())
 
-// let fruta = "manzana"
-// console.log(fruta.toLowerCase())
+let fruta = "manzana"
+console.log(fruta.toLowerCase())
 
-// let fruta = "manzana"
-// console.log(fruta.indexOf('m'))
+let fruta = "manzana"
+console.log(fruta.indexOf('m'))
 
-// let fruta = "manzana"
-// console.log(fruta.slice(1,6))
+let fruta = "manzana"
+console.log(fruta.slice(1,6))
 
-// let fruta = "manzana"
-// console.log(fruta.length)
+let fruta = "manzana"
+console.log(fruta.length)
 
-// let fruta = "manzana"
-// console.log(fruta.replace("manzana", "pera"))
+let fruta = "manzana"
+console.log(fruta.replace("manzana", "pera"))
 
-// let fruta = "manzana"
-// console.log(fruta.split(''))
+let fruta = "manzana"
+console.log(fruta.split(''))
 
 
 
@@ -141,29 +141,21 @@
 // \\\\\\\\\\\\\\\\\\\\\\\\\\\\Objetos////////////////////////////
 
 // ---------------------------objetos---------------------------------
-// const auto = {
-//     marca: "Toyota",
-//     modelo: 2024,
-//     color: "Negro",
-//     accesorios: ["motor", "ruedas", "luces"]
-// }
-// console.log(auto)
+const auto = {
+    marca: "Toyota",
+    modelo: 2024,
+    color: "Negro",
+    accesorios: ["motor", "ruedas", "luces"]
+}
+console.log(auto)
 
-// o
+console.log(auto.accesorios)
 
-// console.log(auto.accesorios)
+console.log(auto.marca)
 
-// o
+console.log(auto.modelo)
 
-// console.log(auto.marca)
-
-// o
-
-// console.log(auto.modelo)
-
-// o
-
-// console.log(auto.color)
+console.log(auto.color)
 
 
 
